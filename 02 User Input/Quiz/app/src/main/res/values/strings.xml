@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Quiz</string>
+
+    //Card 1
+    <string name="radio_question1">Whats the meaning of life?</string>
+    <string name="radio_q1_answer1">39</string>
+    <string name="radio_q1_answer2">40</string>
+    <string name="radio_q1_answer3">41</string>
+    <string name="radio_q1_answer4">42</string>
+
+    //Card 2
+    <string name="checkB_question1">Which answers do apply to a²=25?</string>
+    <string name="checkB_q1_answer1">a= -5</string>
+    <string name="checkB_q1_answer2">a= 3</string>
+    <string name="checkB_q1_answer3">a= 5</string>
+    <string name="checkB_q1_answer4">a= 7</string>
+
+    //Card 3
+    <string name="editT_question1">Whats the first name of the 44. president of the USA?</string>
+
+    //Card 4
+    <string name="radio_question2">How many hours are in a year?</string>
+    <string name="radio_q2_answer1">5260h</string>
+    <string name="radio_q2_answer2">8760h</string>
+    <string name="radio_q2_answer3">9960h</string>
+    <string name="radio_q2_answer4">11260h</string>
+
+</resources>

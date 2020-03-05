@@ -1,0 +1,313 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    android:background="#212121">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/coinbutton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Coin" />
+
+            <Button
+                android:id="@+id/resetbutton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Reset"
+                />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:paddingRight="8dp">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:padding="4dp"
+                android:text="Player 1"
+                android:textColor="#ffff"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/player1life"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center"
+                android:padding="4dp"
+                android:text="8000"
+                android:textSize="48sp"
+                android:textColor="#FFEB3B"/>
+
+            <Button
+                android:id="@+id/divide2p1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="p1divideby2"
+                android:text="Divide by 2" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/p1plus2000"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="+2000"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:id="@+id/p1minus2000"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="-2000"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/p1plus1000"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="+1000"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:id="@+id/p1minus1000"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="-1000"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/p1plus500"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="+500"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:id="@+id/p1minus500"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="-500"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/p1plus100"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="+100"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:id="@+id/p1minus100"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="-100"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent">
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@android:color/darker_gray"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:paddingLeft="8dp">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:padding="4dp"
+                android:text="Player 2"
+                android:textColor="#ffffff"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/player2life"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="4dp"
+                android:text="8000"
+                android:textSize="48sp"
+                android:fontFamily="sans-serif-light"
+                android:textColor="#FFEB3B">
+
+            </TextView>
+
+            <Button
+                android:id="@+id/divide2p2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="p2divideby2"
+                android:text="Divide by 2" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/p2plus2000"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="+2000"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:id="@+id/p2minus2000"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="-2000"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/p2plus1000"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="+1000"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:id="@+id/p2minus1000"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="-1000"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/p2plus500"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="+500"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:id="@+id/p2minus500"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="-500"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/p2plus100"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="+100"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:id="@+id/p2minus100"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="-100"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

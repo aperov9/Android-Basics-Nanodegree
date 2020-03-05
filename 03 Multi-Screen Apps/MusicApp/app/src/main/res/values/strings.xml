@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Music App</string>
+
+    <string name="intention_mainMenu">This is the main menu of the app. From here the user is able to navigate to the main parts of the app.</string>
+    <string name="intention_store">Menu for store elements. You can try new songs and buy them. Recommended songs are determined by the users music favorite genre. Top songs are worldwide bestsellers. Billing can be done via PlayStore API.</string>
+    <string name="intention_settings">Settings page of the music player. You can switch on an off different options like offline mode for downloading songs, lyrics for an overlay of the song text or auto for automatically switching to the next song</string>
+    <string name="intention_songDetails">Song details page with song name and cover. Here you can play, pause or skipp songs. </string>
+
+</resources>

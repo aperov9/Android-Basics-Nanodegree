@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">TourGuide</string>
+
+    <!--view pager Tabs-->
+    <string name="tab1">EVENTS</string>
+    <string name="tab2">MUSEUM</string>
+    <string name="tab3">FOOD</string>
+    <string name="tab4">RANDOM</string>
+
+    <string name="location">Leipzig</string>
+
+    //Food Tab Items
+    <string name="food_name1">Vapiano</string>
+    <string name="food_name2">Ratskeller</string>
+    <string name="food_name3">Max Enk</string>
+    <string name="food_name4">Auerbachs Keller</string>
+
+    <string name="food_description1">Moderne Restaurantkette mit Pasta, Pizza und mehr","Leipzig</string>
+    <string name="food_description2">Hirschfilet oder Mittelalter-Buffets in stilvoll-rustikalen Gewölbesälen mit Lüstern und verzierten Säulen.</string>
+    <string name="food_description3">Das kunstvoll schlicht gestaltete Lichthof-Lokal serviert internationale Speisen mit ausgefallenen Zutaten.</string>
+    <string name="food_description4">Gehobene sächsische Küche und Hausmannskost in den prunkvollen historischen Gewölben zweier Restaurants.</string>
+
+    //Event Tab Items
+    <string name="event_name1">Krystallpalast</string>
+    <string name="event_name2">Neues Schauspiel Leipzig</string>
+    <string name="event_name3">Arena Leipzig</string>
+
+    <string name="event_description1">Varietéshows mit Akrobatik, Comedy und Tanz, auf Wunsch mit Showmenü. Sonntags gibt es im Varieté-Café Kuchen.</string>
+    <string name="event_description2">Das in einer früheren Druckerei gelegene kleine Theater spielt neu interpretierte Klassiker und eigene Stücke.</string>
+    <string name="event_description3">Die Arena Leipzig ist eine moderne Multifunktionshalle für Sportwettkämpfe, Konzerte, Großveranstaltungen und Kongresse.</string>
+
+    //Museum Tab Items
+    <string name="museum_name1">Museum der bildenden Künste</string>
+    <string name="museum_name2">Bach-Museum Leipzig</string>
+    <string name="museum_name3">Schumann-Haus</string>
+    <string name="museum_name4">Museum für Druckkunst</string>
+
+    <string name="museum_description1">Museum der bildenden Künste","Das Museum der bildenden Künste in Leipzig ist ein deutsches Kunstmuseum. Es wurde 1848 eröffnet und umfasst Gemälde, Grafik und Skulpturen bis zur zeitgenössischen Kunst.</string>
+    <string name="museum_description2">Das Bach-Museum Leipzig ist ein Museum, das sich mit dem Leben und Wirken des Komponisten Johann Sebastian Bachs beschäftigt.</string>
+    <string name="museum_description3">Das Schumann-Haus ist das ehemalige Wohnhaus von Robert und Clara Schumann in Leipzig, welche hier ihre ersten vier Ehejahre verbrachten.</string>
+    <string name="museum_description4">Das Museum für Druckkunst Leipzig der traditionsreichen Buch- und Verlagsstadt ist ein Museum, das ältere Techniken des Druckens dokumentiert.</string>
+
+    //Random Tab Items
+    <string name="random_name1">Moritzbastei</string>
+    <string name="random_name2">LaserTag Leipzig</string>
+
+    <string name="random_description1">Sanierte Stadtbefestigung von Leipzig, nun ein Veranstaltungs- und Kulturzentrum für die junge Generation.</string>
+    <string name="random_description2">Das Original LaserTag gibt es jetzt auch in Leipzig! Die 588 m² große Arena ist mit über 60 Hindernissen sowie 10 Säulen bestückt und bietet somit jede Menge Raum für taktische Spielereien und eine tolle Spieldynamik."</string>
+
+</resources>
